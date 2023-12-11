@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.hello{
+    filter: drop-shadow(0 0 10px #ff6f00);
+    color:#ff6f00;
+    text-align: center;
+}
+
+.happy{
+    filter: drop-shadow(0 0 10px #ff6f00);
+    margin: 20px;
+    color:#ff6f00;
+    text-align: center;
+}
+
+.pumpkin{
+    margin: 50px 340px;
+    display: flex;
+    filter: drop-shadow(0 0 10px #ff6f00);
+    animation: glow 1s alternate infinite;
+}
+
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 10px #ff6f00);
+    }
+
+    100%{
+        filter: drop-shadow(0 0 25px #ff6f00);
+    }
+}
